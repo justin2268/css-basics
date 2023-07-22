@@ -13,9 +13,24 @@ h2 {
     color: orange;
 }
 
+
 p {
     width: 300px;
     font-weight: 700px;
     color: pink;
     margin: 0 auto;
+    padding: 10px;
+}
+
+h2:hover {
+    text-decoration:line-through;
+}
+
+body p {
+    background-color: blueviolet;
+}
+
+body p a:hover {
+    text-decoration: none;
+    color: yellow;
 }
